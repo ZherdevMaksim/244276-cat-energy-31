@@ -1,0 +1,29 @@
+.promo {
+  padding-top: 27px;
+  background: linear-gradient(to bottom, $basic-green 0 302px, $basic-white);
+  background-image: url("../../images/promo-background-filter@1x.png"), url("../../images/promo-background@1x.jpg");
+  background-size: 100% 302px;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.promo__title {
+  margin: 0;
+  margin-bottom: 25px;
+  font-family: $second-font;
+  font-size: 36px;
+  line-height: 36px;
+  color: $basic-white;
+  text-align: center;
+}
+
+.promo__slogan {
+  margin: 0;
+  margin-bottom: 29px;
+  font-family: $second-font;
+  font-size: 14px;
+  line-height: 14px;
+  color: $basic-white;
+  text-align: center;
+  text-transform: uppercase;
+}
