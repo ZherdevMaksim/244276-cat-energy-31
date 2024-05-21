@@ -1,9 +1,8 @@
 .promo {
   padding-top: 27px;
-  background: linear-gradient(to bottom, $basic-green 0 302px, $basic-white);
-  background-image: url("../../images/promo-background-filter@1x.png"), url("../../images/promo-background@1x.jpg");
-  background-size: 100% 302px;
-  background-repeat: no-repeat;
+  background: url("../../images/promo-background-filter@1x.png"), url("../../images/promo-background@1x.jpg"), linear-gradient(to bottom, $basic-green 0 302px, $basic-white);
+  background-size: 100% 302px, auto, 100% 302px;
+  background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: top center;
 }
 
@@ -26,4 +25,10 @@
   color: $basic-white;
   text-align: center;
   text-transform: uppercase;
+}
+
+.promo__link {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
 }

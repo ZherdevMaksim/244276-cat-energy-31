@@ -1,0 +1,27 @@
+.programm {
+  font-family: $second-font;
+  background-color: $basic-grey;
+}
+
+.programm__title {
+  font-size: 24px;
+  line-height: 37px;
+  color: $basic-black;
+  text-transform: uppercase;
+}
+
+.programm__text {
+  font-family: $primary-font;
+  font-size: 14px;
+  line-height: 18px;
+  color: $special-dark-grey;
+}
+
+.programm__link {
+  font-size: 16px;
+  line-height: 16px;
+  color: $basic-black;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+}
